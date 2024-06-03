@@ -20,9 +20,9 @@ pip install .
 Here is an example of how to use the package to calculate the volume of a sphere:
 
 ```python
-from foo import calculate_volume
+from foo.sphere import calculate_volume
 
-radius = 5
+radius = 6
 volume = calculate_volume(radius)
 print(f"The volume of the sphere with radius {radius} is {volume}")
 

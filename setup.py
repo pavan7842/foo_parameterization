@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[],
     author="Pavan",
-    author_email="m.pavanchary@gmail.com",
+    author_email="pavan9900.m@outlook.com",
     description="A package to calculate the Foo et al. parameterization for sphere volumes",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",

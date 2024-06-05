@@ -11,15 +11,19 @@ To install the package, you can clone the repository and install it manually:
 git clone https://github.com/pavan7842/foo_parameterization.git
 
 cd foo_parameterization
-pip install .
+pip3 install .
 
 
 # Usage
 
 Here is an example of how to use the package to calculate the volume of a sphere:
 
+so here you can use my existing file i.e., run_sphere.py to calculate the volume if not you can create a test file and run.
+
+like below:
+
 ```python
-from foo.sphere import calculate_volume
+from foo.sphere import calculate_volume_of_sphere
 
 radius = 6 (can take any value)
 volume = calculate_volume_of_sphere(radius)
